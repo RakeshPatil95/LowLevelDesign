@@ -6,7 +6,7 @@ public class Building {
 
     List<Floor> floorList;
 
-    Building(List<Floor> floors){
+    public Building(List<Floor> floors){
         this.floorList = floors;
     }
 

@@ -2,12 +2,12 @@ package problems.LLDElevatorDesign;
 
 public class ElevatorCar {
 
-    int id;
+    public int id;
     ElevatorDisplay display;
     InternalButtons internalButtons;
     ElevatorState elevatorState;
     int currentFloor;
-    Direction elevatorDirection;
+    public Direction elevatorDirection;
     ElevatorDoor elevatorDoor;
 
     public ElevatorCar(){

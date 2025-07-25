@@ -1,7 +1,6 @@
 package problems.LLDElevatorDesign;
 
 
-
 public class InternalButtons {
 
     InternalDispatcher dispatcher = new InternalDispatcher();

@@ -7,9 +7,9 @@ public  class ElevatorController {
 
     PriorityQueue<Integer> upMinPQ;
     PriorityQueue<Integer> downMaxPQ;
-    ElevatorCar elevatorCar;
+    public ElevatorCar elevatorCar;
 
-    ElevatorController(ElevatorCar elevatorCar){
+    public ElevatorController(ElevatorCar elevatorCar){
 
         this.elevatorCar = elevatorCar;
         upMinPQ = new PriorityQueue<>();
