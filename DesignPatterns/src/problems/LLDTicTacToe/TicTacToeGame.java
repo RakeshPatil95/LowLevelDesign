@@ -1,7 +1,6 @@
 package problems.LLDTicTacToe;
 
 import problems.LLDTicTacToe.Model.*;
-import org.antlr.v4.runtime.misc.Pair;
 
 import java.util.Deque;
 import java.util.LinkedList;
@@ -41,7 +40,7 @@ public class TicTacToeGame {
 
             //get the free space from the board
             gameBoard.printBoard();
-            List<Pair<Integer, Integer>> freeSpaces =  gameBoard.getFreeCells();
+            List<Cell> freeSpaces =  gameBoard.getFreeCells();
             if(freeSpaces.isEmpty()) {
                 noWinner = false;
                 continue;
